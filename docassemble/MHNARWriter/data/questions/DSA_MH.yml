@@ -48,6 +48,8 @@ fields:
       - TextHelp Read & Write
       - ClaroRead Plus UK Version
       - ClaroRead Pro
+  - Speech-to-text: B21_stt
+    datatype: yesno
   - Mind mapping: B21_mm
     datatype: yesno
   - Select: B21_mm_type
@@ -98,7 +100,7 @@ fields:
     required: False
   - Study Technique - Pomodoro: B22_pom
     datatype: yesno
-  - Speech-to-Text: B22_dict
+  - Speech-to-Text: B22_stt
     datatype: yesno
   - Text-to-speech (proofing): B22_tts
     datatype: yesno 
@@ -336,6 +338,8 @@ fields:
     datatype: yesno
     help: |
         You will need to have selected a printer in section B-2-1
+  - Brain in Hand: B28_bih
+    datatype: yesno
   - Consider reduced presentation sizes: B28_red
     datatype: yesno
   - Specialist Mentor (MH): B28_sm

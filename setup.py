@@ -43,8 +43,8 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.MHNARWriter',
-      version='0.0.3',
-      description=('A docassemble extension.'),
+      version='0.0.4',
+      description=('DSA SpLD NAR recommendations'),
       long_description='NAR writer for Mental Health assessments ',
       long_description_content_type='text/markdown',
       author='Adam Tweed',
